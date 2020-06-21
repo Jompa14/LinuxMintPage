@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+}
+/*
+body {
+  background-color: #002021; cor levemente mais clara que a do header
+} */
+#container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #001E1F;
+  /* border-style: solid; */
+  /* border-color: #001E1F #001E1F #2fb45a #001E1F; */
+}
+
+h1 {
+  padding: 5px;
+  display: inline-block;
+  color: white;
+  margin-left: 5px;
+}
+
+header strong {
+  color: #2fb45a;
+}
+
+nav {
+  display: inline-block;
+  text-align: right;
+}
+
+ul {
+  list-style: none;
+  text-align: right;
+  display: inline-block;
+}
+
+
+ul li {
+  display: inline-block;
+  padding: 12px;
+}
+
+li a {
+  text-decoration: none;
+  color: #2fb45a;
+}
+ li a:hover {
+   text-decoration: underline;
+ }
+
+
+
+.input {
+  padding: 12px 0px;
+}
+#search {
+  background-color: #003133;
+  border-color: #001E1F;
+  border-radius: 5px;
+  color: gray;
+  cursor: text;
+  display: inline-block;
+  width: 100px;
+  padding: 5px;
+}
+
+#search:focus {
+  border-color: #2fb45a;
+  width: 200px;
+}
+
+#submit {
+  color: #2fb45a;
+  border-color: #2fb45a;
+  border-radius: 5px;
+  background-color: #001E1F;
+}
+
+#DLbutton {
+  background-color: #2fb45a;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #001E1F;
+
+}
+
+#header-right {
+  float: right;
+}
+
+/* body */
+
+.features {
+  background-color: lightgreen;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.features figure  img{
+  width: 60%;
+  display: inline-block;
+}
+
+.textToRight {
+  width: 30%;
+  float:right;
+  margin: 5px auto
+}
+
+.textToRight h2 {
+  display: inline-block;
+}
+
+.textToRight article {
+  display: inline-block;
+}
