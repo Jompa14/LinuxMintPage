@@ -217,6 +217,11 @@ li a {
   line-height: 1.4em;
   letter-spacing: 1px;
 }
+
+.postStyle:hover {
+  background-color: #E6E6E6;
+}
+
 .postStyle h2 {
   margin-bottom: 20px;
 }
@@ -226,7 +231,7 @@ li a {
 } */
 .postStyle p {
   margin-bottom: 60px;
-  padding: 0 10px
+  padding: 0 10px;
 }
 
 
@@ -239,11 +244,45 @@ fieldset {
   height: 100%;
   padding: 10px;
   margin: 20px;
-  display: inline-block;
   border: solid #2fb45a;
   border-radius: 5px;
 }
 
 #newsletter h2 {
   margin-bottom: 20px;
+}
+
+#newsletter:hover {
+  background-color: #E6E6E6;
+}
+
+.email:hover {
+  border-color: #2fb45a;
+  border-radius: 5px;
+}
+
+.email:focus {
+  border-color: #2fb45a;
+  border-radius: 5px;
+}
+
+.comments {
+  width: 90%;
+  margin: 150px auto 80px;
+  text-align: center;
+}
+
+.userCotes {
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+}
+
+.userCotes img {
+    width: 100px;
+    border-radius: 50%;
 }
