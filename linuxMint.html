@@ -3,12 +3,18 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
     <title>Linux Mint</title>
   </head>
   <body>
         <div id="container">
           <header>
-            <h1>Linux <strong>Mint</strong></h1>
+            <h1>
+            <a href="linuxMint.html" class="pageTitle">
+            Linux <strong>Mint</strong>
+            </a>
+            </h1>
             <nav>
               <ul>
                 <li>
@@ -36,7 +42,7 @@
               </li>
 
               <li>
-                <button type="button" id="DLbutton" name="button">Download</button>
+                <a href="download.html" id="DLbutton" name="button">Download</a>
               </li>
             </ul>
 
@@ -45,14 +51,16 @@
           <main>
 
             <section class="mintSlogan">
-              <img src="imagens/bitmap.png" alt="Logo Linux Mint">
+              <img src="imagens/bitmap.png" alt="Logo Linux Mint" class="imgToRight">
 
-              <article class="textToRight">
-                <h2>Cinammon Interface</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua.</p>
+              <article class="articleSlogan">
+                <h2>From freedom came elegance</h2>
+                <p>Linux Mint is modern,
+                elegant and comfortable operating system which is
+                both powerful and easy to use.</p>
+                <a href="sobreNos.html"class="button" title="About Us">Learn More</a>
               </article>
+            </section>
 
 
 
@@ -69,19 +77,108 @@
                 ut labore et dolore magna aliqua.</p>
               </article>
             </section>
+
+
+            <section class="blogNews">
+              <article class="postStyle">
+                <h2>Post Blog</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <a class="button">Read more</a>
+              </article>
+
+              <article class="postStyle">
+                <h2>Post Blog</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <a class="button">Read more</a>
+              </article>
+
+              <article id="newsletter"''>
+
+                <form class="form" action="index.html" method="post">
+
+                <fieldset>
+                  <legend><h2>Newsletter</h2></legend>
+                  <label for="email">e-mail:</label>
+                  <br>
+                  <input type="email" name="email" placeholder="email..." required>
+                  <br>
+                  <br>
+                  <label for="idioma">Lenguage:</label>
+                  <br>
+                  <select class="idioma" name="idioma">
+                    <option value="EN">English</option>
+                    <option value="PT">Portuguese</option>
+                    <option value="SP">Spanish</option>
+                  </select>
+                  <br>
+                  <br>
+                  <label for="pace">E-mail's Pace:</label>
+                  <br>
+                  <br>
+                  <input type="radio" id="pace1" name="pace" value="1">
+                  <label for"pace1">Daily</label>
+                  <br>
+                  <input type="radio" id="pace2" name="pace" value="2">
+                  <label for="pace2">Weekly</label>
+                  <br>
+                  <input type="radio" id="pace3" name="pace" value="3">
+                  <label for="pace3">Monthly</label>
+                  <br>
+                  <input type="submit" name="submit" value="Send" class="button">
+                </fieldset>
+                </form>
+              </article>
+            </section>
+
+            <!-- <section class="Comments">
+              <article class="userCotes">
+                <img src="" alt="">
+                <h2>Post Blog</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </article>
+
+              <article class="userCotes">
+                <img src="" alt="">
+                <h2>Post Blog</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </article>
+              <article class="userCotes">
+                <img src="" alt="">
+                <h2>Post Blog</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </article> -->
+            <!-- </section> -->
+
           </main>
+
+
+          <footer>
+
+
+          </footer>
 
 
 
         </div>
   </body>
-
-
-  <!--
-    inserir no footer:
-   <div>Icons made by <a href="https://www.flaticon.com/authors/freepik"
-   title="Freepik">Freepik</a>
-   from <a href="https://www.flaticon.com/"
-   title="Flaticon">www.flaticon.com</a></div>
- -->
 </html>
