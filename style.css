@@ -126,20 +126,24 @@ li a {
 
 
 .mintSlogan {
-  width: 75%;
-  height: 300px;
+  width: 80%;
+  height: 400px;
   margin: 110px auto 50px;
 }
 
 .articleSlogan {
-  width: 35%;
+  width: 50%%;
   margin-left: 45px;
 }
 
+.articleSlogan h2 {
+  font-size: 300%;
+}
 .articleSlogan p {
     margin: 20px auto 35px;
     line-height: 1.4em;
     letter-spacing: 1px;
+    font-size: 150%;
 }
 
 .button {
@@ -267,9 +271,10 @@ fieldset {
 }
 
 .comments {
-  width: 90%;
+  width: 100%;
   margin: 150px auto 80px;
   text-align: center;
+  background-color: lavender;
 }
 
 .userCotes {
@@ -285,4 +290,43 @@ fieldset {
 .userCotes img {
     width: 100px;
     border-radius: 50%;
+}
+
+.userCotes h2 {
+  padding: 10px;
+}
+
+.userCotes p {
+  padding: 5px;
+}
+
+footer {
+  background-color: #001E1F;
+  width: 100%;
+  color: #2fb45a;
+}
+
+.footerLeft {
+  box-sizing: border-box;
+  width: 65%;
+  padding: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.footerRight {
+  box-sizing: border-box;
+  width: 30%;
+  text-align: right;
+  display: inline-block;
+}
+
+.footerRight img {
+  width: 60px;
+  margin: 20px 10px 10px 10px;
+  border-radius: 50%;
+}
+
+.footerRight img:hover {
+  filter: invert(75%);
 }
