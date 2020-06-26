@@ -82,8 +82,8 @@ li a {
 
 #submit {
   color: #2fb45a;
-  border-color: #2fb45a;
-  border-radius: 5px;
+  border-style: none;
+  padding: 5px;
   background-color: #001E1F;
   cursor: pointer;
 }
@@ -102,10 +102,6 @@ li a {
 
 #DLbutton:hover {
   color: white;
-}
-
-#header-right {
-  float: right;
 }
 
 /* BODY */
@@ -170,6 +166,8 @@ h2 {
   height: 380px;
   padding: 30px 0;
   margin: 20px auto;
+  display: inline-block;
+  align-items: center;
   background-color: lavender;
 }
 
@@ -190,8 +188,6 @@ h2 {
 .textToRight {
   width: 30%;
   float:right;
-  margin: 20px 40px 20px 10px;
-  display: inline;
   line-height: 1.4em;
   letter-spacing: 1px;
 }
@@ -206,6 +202,8 @@ h2 {
   margin: 60px auto;
   padding: 10px;
   box-sizing: border-box;
+  justify-content: space-around;
+  display: flex;
 }
 
 .postStyle {
@@ -300,12 +298,16 @@ footer {
   display: inline-block;
 }
 
-.footerRight img {
+.footerRight i {
   width: 60px;
-  margin: 20px 10px 10px 10px;
-  border-radius: 50%;
+  font-size: 2em;
 }
 
-.footerRight img:hover {
-  filter: invert(75%);
+.footerRight i:hover {
+  color: whitesmoke;
+}
+
+.footerRight a {
+  color: #2fb45a;
+  text-decoration: none;
 }
