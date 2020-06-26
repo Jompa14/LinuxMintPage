@@ -14,30 +14,27 @@ header {
   background-color: #001E1F;
   position: fixed;
   top: 0;
-  /* border-style: solid; */
-  /* border-color: #001E1F #001E1F #2fb45a #001E1F; */
-}
-
-.home {
-    margin-top: 5px;
-    display: inline-block;
-    margin-left: 10px;
-    padding: 5px;
-}
-
-.home a {
-  text-decoration: none;
-  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header strong {
   color: #2fb45a;
 }
 
+.home a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  display: inline-flex;
+}
+
 nav {
-  display: inline-block;
+  display: inline-flex;
   text-align: right;
 }
+
 
 ul {
   list-style: none;
@@ -99,7 +96,6 @@ li a {
   cursor: pointer;
   text-decoration: none;
   padding: 10px;
-  margin-right: 20px;
   margin-left: 20px;
   color: #001E1F;
 }
@@ -220,7 +216,7 @@ h2 {
   display: inline-block;
   border: solid #2fb45a;
   border-radius: 5px;
-  line-height: 1.3em;
+  line-height: 1.4em;
   letter-spacing: 1px;
 }
 
