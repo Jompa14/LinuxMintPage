@@ -2,10 +2,7 @@
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
-/*
-body {
-  background-color: #002021; cor levemente mais clara que a do header
-} */
+
 #container {
   width: 1012px;
   margin: 0 auto;
@@ -21,17 +18,14 @@ header {
   /* border-color: #001E1F #001E1F #2fb45a #001E1F; */
 }
 
-h1 {
-  padding: 5px;
-  display: inline-block;
-  margin-left: 10px;
+.home {
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
 }
 
-h2 {
-  color: #2fb45a;
-}
-
-.pageTitle {
+.home a {
   text-decoration: none;
   color: white;
 }
@@ -124,11 +118,14 @@ li a {
 /* BODY */
 /* BODY */
 
+h2 {
+  color: #2fb45a;
+}
 
 .mintSlogan {
   width: 80%;
   height: 400px;
-  margin: 110px auto 50px;
+  margin: 140px auto 50px;
 }
 
 .articleSlogan {
@@ -174,7 +171,7 @@ li a {
 
 .features {
   width: 100%;
-  height: 345px;
+  height: 380px;
   padding: 30px 0;
   margin: 20px auto;
   background-color: lavender;
@@ -187,7 +184,11 @@ li a {
 }
 
 .features img {
-  width: 95%;
+  width: 100%;
+}
+
+.btn-slider {
+  text-align: center;
 }
 
 .textToRight {
@@ -208,6 +209,7 @@ li a {
   height: 350px;
   margin: 60px auto;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .postStyle {
@@ -218,7 +220,7 @@ li a {
   display: inline-block;
   border: solid #2fb45a;
   border-radius: 5px;
-  line-height: 1.4em;
+  line-height: 1.3em;
   letter-spacing: 1px;
 }
 
@@ -230,34 +232,15 @@ li a {
   margin-bottom: 20px;
 }
 
-/* .postStyle p {
-  margin-bottom: 70px;
-} */
+
 .postStyle p {
-  margin-bottom: 60px;
-  padding: 0 10px;
+  margin-bottom: 30px;
+  padding: 0 5px;
 }
 
 
 fieldset {
   border-style: none
-}
-
-#newsletter {
-  float: right;
-  height: 100%;
-  padding: 10px;
-  margin: 20px;
-  border: solid #2fb45a;
-  border-radius: 5px;
-}
-
-#newsletter h2 {
-  margin-bottom: 20px;
-}
-
-#newsletter:hover {
-  background-color: #E6E6E6;
 }
 
 .email:hover {

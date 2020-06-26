@@ -10,11 +10,15 @@
   <body>
         <div id="container">
           <header>
-            <h1>
-            <a href="linuxMint.html" class="pageTitle">
-            Linux <strong>Mint</strong>
-            </a>
-            </h1>
+
+            <div class="home">
+              <h1>
+              <a href="linuxMint.html" class="pageTitle">
+              Linux <strong>Mint</strong>
+              </a>
+              </h1>
+            </div>
+
             <nav>
               <ul>
                 <li>
@@ -65,9 +69,14 @@
 
 
             <section class="features">
-
               <figure>
-                  <img src="imagens/cinammon.png" alt="Cinnamon desktop">
+                <img class="mySlides" src="imagens/cinammon.png" alt="Cinnamon desktop">
+                <img class="mySlides" src="imagens/cinammon2.png" alt"Software store">
+                <img class="mySlides" src="imagens/cinammon3.png" alt"Workspaces">
+                <div class="btn-slider">
+                  <button onclick="plusDivs(-1)">&#10094;</button>
+                  <button onclick="plusDivs(+1)">&#10095;</button>
+                </div>
               </figure>
 
               <article class="textToRight">
@@ -100,9 +109,7 @@
                 <a class="button">Read more</a>
               </article>
 
-              <article id="newsletter"''>
-
-                <form class="form" action="index.html" method="post">
+                <form class="postStyle" action="index.html" method="post">
 
                 <fieldset>
                   <legend><h2>Newsletter</h2></legend>
@@ -135,7 +142,6 @@
                   <input type="submit" name="submit" value="Subscribe" class="button">
                 </fieldset>
                 </form>
-              </article>
             </section>
 
             <section class="comments">
@@ -187,5 +193,8 @@
 
 
         </div>
+        <script src="scripts.js">
+
+        </script>
   </body>
 </html>
