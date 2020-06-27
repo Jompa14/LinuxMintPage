@@ -33,6 +33,7 @@ header strong {
 nav {
   display: inline-flex;
   text-align: right;
+  overflow: hidden;
 }
 
 
@@ -55,6 +56,29 @@ li a {
  li a:hover {
    text-decoration: underline;
  }
+
+ /* dropdown menu */
+
+ .dropdown {
+   overflow: hidden;
+ }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #001E1F;
+}
+.dropdown-content a{
+  display: block;
+  padding: 10px;
+  text-align: left;
+}
+/* esse trecho faz o menu dropdow cair: */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* fim do dropdown */
+
 
 .input {
   padding: 12px 0px;
