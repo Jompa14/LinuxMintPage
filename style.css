@@ -145,8 +145,7 @@ h2 {
 }
 
 .articleSlogan {
-  width: 50%%;
-  margin-left: 45px;
+  width: 50%;
 }
 
 .articleSlogan h2 {
@@ -256,20 +255,21 @@ h2 {
   padding: 0 5px;
 }
 
-
+/* form */
 fieldset {
   border-style: none
 }
 
-.email:hover {
+#email:hover {
   border-color: #2fb45a;
   border-radius: 5px;
 }
 
-.email:focus {
+#email:focus {
   border-color: #2fb45a;
   border-radius: 5px;
 }
+/* forms's end */
 
 .comments {
   width: 100%;
