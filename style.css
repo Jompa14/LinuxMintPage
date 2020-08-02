@@ -4,7 +4,7 @@
 }
 
 #container {
-  width: 1012px;
+  width: 100%;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
   align-items: center;
 }
 
-header strong {
+header span {
   color: #2fb45a;
 }
 
@@ -78,9 +78,8 @@ li a {
 }
 /* fim do dropdown */
 
-
-.input {
-  padding: 12px 0px;
+.right-nav {
+    display: flex;
 }
 
 #search {
@@ -89,7 +88,6 @@ li a {
   border-radius: 5px;
   color: gray;
   cursor: text;
-  display: inline-block;
   width: 100px;
   padding: 5px;
 }
@@ -119,7 +117,7 @@ li a {
   cursor: pointer;
   text-decoration: none;
   padding: 10px;
-  margin-left: 20px;
+  margin: 0px 20px;
   color: #001E1F;
 }
 
